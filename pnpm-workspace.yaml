@@ -1,0 +1,3 @@
+packages:
+  - testing
+  - astro-parallel-build-check

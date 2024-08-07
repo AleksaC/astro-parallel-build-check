@@ -1,0 +1,32 @@
+{
+  "name": "astro-parallel-build-check",
+  "version": "0.1.2",
+  "description": "Run astro build and check in parallel",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "pnpm -C ../testing run build-parallel",
+    "prepack": "cp ../README.md ../LICENSE ."
+  },
+  "peerDependencies": {
+    "astro": ">=4 <5",
+    "@astrojs/check": "<1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "astro"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksaC/astro-parallel-build-check.git"
+  },
+  "author": "Aleksa Cukovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AleksaC/astro-parallel-build-check/issues"
+  },
+  "homepage": "https://github.com/AleksaC/astro-parallel-build-check#readme"
+}
