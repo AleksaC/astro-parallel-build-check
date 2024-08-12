@@ -41,7 +41,7 @@ Add the `astro-parallel-build-check` command to the `scripts` field of your `pac
 Passing flags to build and check commands is not supported at the moment. I'm
 holding off on this because I don't need it and there is a chance I'll never do.
 The best option would probably be to have the same flags as `astro build` command
-and pass the `astro check` configuration through environment variables.
+and pass the `astro check` configuration as environment variables.
 
 ## Contact
 - [Personal website](https://aleksac.me)
