@@ -10,7 +10,7 @@
     "prepack": "cp ../README.md ../LICENSE ."
   },
   "peerDependencies": {
-    "astro": ">=4 <5",
+    "astro": ">=4 <6",
     "@astrojs/check": "<1"
   },
   "engines": {
